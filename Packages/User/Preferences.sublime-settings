@@ -1,0 +1,128 @@
+{
+	// Theme & Colour Scheme
+	// Download: https://github.com/thinkpixellab/flatland
+	"theme": "Flatland Dark.sublime-theme",
+	"color_scheme": "Packages/Theme - Flatland/Flatland Dark.tmTheme",
+	//"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+
+	// Exclude files & folders
+	"folder_exclude_patterns":
+	[
+		".git",
+		"tmp"
+	],
+	"file_exclude_patterns":
+	[
+		"*.sublime-project",
+		"*.sublime-workspace"
+	],
+
+	// Prevents message
+	"detect_slow_plugins": false,
+	"fade_fold_buttons": false,
+
+	// Font
+	"font_face": "inconsolata-g",
+	"font_size": 12,
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
+
+	// Auto complete words
+	"auto_complete": true,
+
+	// Setting auto-complete to tab not enter
+	"auto_complete_commit_on_tab": true,
+
+	// Make the tab go to the next best match
+	"tab_completion": true,
+
+	// Set to false to disable automatic indentation
+	"auto_indent": true,
+
+	// On creation of an opening bracket/brace/etc, a closing one is inserted.
+	"match_brackets": true,
+    "match_brackets_angle": true,
+    "match_brackets_braces": true,
+    "match_brackets_content": true,
+    "match_brackets_square": true,
+
+	// Makes folder names bold
+	"bold_folder_labels": true,
+
+	// Caret style
+	"caret_style": "phase",
+
+	// Set to false to hide the gutter altogether
+	"gutter": true,
+
+	// Highlight current line
+	"highlight_line": true,
+
+	// Highlight tabs that's modified
+	"highlight_modified_tabs": true,
+
+	// But using this means the highlight shows me what tab I'm on
+	"save_on_focus_lost": true,
+
+	// Rulers
+	"rulers":
+	[
+		80
+	],
+
+	// Indent lines that are wrapped to same indentation
+	"indent_subsequent_lines": true,
+
+	// Make it easier to read with some 'leading'
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
+
+	// Tab spacing
+	"tab_size": 4,
+	"translate_tabs_to_spaces": false,
+
+	// Trim trailing spaces
+	"trim_trailing_white_space_on_save": true,
+
+	// Added hyphen, class-names with hyphens are treated as 1 word
+	"word_separators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?",
+
+	// Avoid horizontal scrolling
+	"word_wrap": true,
+
+	// Scroll past end of file
+	"scroll_past_end": true,
+    "scroll_speed": 2,
+
+	// Enable spell check
+	"spell_check": true,
+
+	// Sublime Text 2 Todo package
+	"todo":
+	{
+		"case_sensitive": true,
+		"file_exclude_patterns":
+		[
+			"*.sql"
+		],
+		"folder_exclude_patterns":
+		[
+			"node_modules"
+		],
+		"patterns":
+		{
+			"CHANGED": "CHANGED[\\s]*?:+(?P<changed>\\S.*)$",
+			"FIXME": "FIX ?ME[\\s]*?:+(?P<fixme>\\S.*)$",
+			"NOTE": "NOTE[\\s]*?:+(?P<note>.*)$",
+			"TODO": "TODO[\\s]*?:+(?P<todo>.*)$"
+		}
+	},
+
+	// Ignore packages
+	"ignored_packages":
+	[
+		"Vintage"
+	]
+}
